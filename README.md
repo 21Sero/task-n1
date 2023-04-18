@@ -1,25 +1,24 @@
-Card Sorting App
-This is a React-based web application for sorting random number cards. The application allows users to add new cards, delete existing ones, and sort the cards by number.
+# Card Sorting App:
+> This is a React-based web application for sorting random number cards. The application allows users to add new cards, delete existing ones, and sort the cards by number.
 
-Features
+## Features:
 
-Add new cards with a randomly generated number
+- Add new cards with a randomly generated number
 
-Delete cards by clicking the delete button
+- Delete cards by clicking the delete button
 
-Sort cards in ascending order by number
+- Sort cards in ascending order by number
 
-Cards are saved to local storage and persist between page reloads
+- Cards are saved to local storage and persist between page reloads
 
-Responsive design with media queries for mobile and tablet devices
 
-Usage:
-To use this application, follow these steps:
+# Usage:
+### To use this application, follow these steps:
 
-Clone this repository to your local machine.
+- Clone this repository to your local machine.
 
-Install dependencies by running npm install in the project directory.
+- Install dependencies by running `npm install` in the project directory.
 
-Start the development server by running npm start.
+- Start the development server by running `npm start`.
 
-Open your browser and go to http://localhost:3000 to view the application.
+- Open your browser and go to http://localhost:3000 to view the application.

@@ -1,0 +1,75 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    max-height: 80vh;
+    overflow-y: auto;
+    max-width: 820px;
+    min-height: 80%;
+    position: absolute;
+    top: 9%;
+    left: 15%;
+
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 2rem;
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 1rem;
+}
+
+.card:hover {
+    background-color: #f2f2f2;
+}
+
+.delete-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: rgba(0, 151, 255, 0.99);
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.delete-icon i {
+    color: #e74c3c;
+}
+
+
+.add-card-btn,
+.sort-cards-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-card-btn:hover,
+.sort-cards-btn:hover {
+    background-color: #2980b9;
+}
+
+
